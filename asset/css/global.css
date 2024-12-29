@@ -1,0 +1,185 @@
+/* all default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+/* del defult */
+ul,li{
+    display: inline;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* theme color */
+:root {
+    --primary: #C78F57;
+    --second:#D7BC97;
+    --black800:#101010;
+    --dark-blue:#1b1b1b;
+    --gray:#202020;
+    --listHead:#FAA631;
+    --title:#f8f8f8
+}
+
+body{
+    background-color: #151515;
+    height: 100%;
+}
+
+
+
+/* 常用樣式 */
+/* 標題及內文 */
+.page-title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 72px;
+}
+p{
+    font-size: 18px;
+    line-height: 50px;
+    text-indent: 2em;
+}
+
+/* Html5 */
+main {
+    padding-top:50px;
+    min-height: 90vh;
+}
+
+footer{
+    padding: 12px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-items:  center;
+    color: white;   
+    background-color: var(--dark-blue);
+}
+
+section{
+    width: 70%;
+    margin: 52px auto;
+    color: var(--title);
+}
+
+
+/* flex */
+.flex-c-l{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.flex-c-c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-t-c{
+    display: flex;
+    justify-content: center;
+}
+.flex-c-b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* grid */
+.grid{
+    display: grid;
+    gap: 32px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-32{
+    gap: 32px;
+}
+.gap-56{
+    gap: 56px;
+}
+
+/* 置中 */
+.center{
+    text-align: center;
+}
+
+/* position */
+.relative{
+    position: relative;
+}
+
+#preloader {/*   這是整個會蓋住畫面的底色色塊  */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color: var(--gray);
+    z-index: 9999;
+  }
+  #status {/*   這是中間loading的gif坐標css,我們盡量讓他畫面置中  */
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%);
+    width: 72px;
+  }
+  #status img{
+    animation: rotate 5s ;
+  }
+
+  /* .accordion-button{
+    
+  } */
+
+  .accordion-button:focus {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .accordion-button:not(.collapsed) {
+    background-color: #A3C0C8;
+    color:white;
+    font-weight: 600;
+  }
+.accordion-body{
+    text-indent: 2em;
+}
+
+@keyframes rotate {
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(1080deg);
+        width: 80px;
+    }
+}
+
+/* Extra large devices */
+@media (min-width: 1200px){
+
+}
+
+/* desktops */
+@media (max-width: 992px) {
+
+}
+
+/* tablets */
+@media (max-width: 768px){
+    /* section{
+        width: 90%;
+    } */
+}
+
+/* phones */
+@media (max-width: 576px){
+    .page-title{
+        font-size: 24px;
+    }
+}

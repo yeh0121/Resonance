@@ -1,0 +1,370 @@
+.num-text{
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px var(--primary) solid;
+    margin: 10px 6px;
+    font-size: 16px;
+    padding: 5px;
+}
+.num-text:focus-visible{
+    border: 2px var(--primary) solid;
+}
+.num-text::-webkit-input-placeholder{
+    color: var(--primary);
+    font-size: 16px;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.quantity button{
+    background-color: white;
+    color: var(--primary);
+    border: 1px var(--primary) solid;
+    border-radius: 50%;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quantity button:hover{
+    color: white;
+    background-color: var(--primary);
+    transition: 0.5s;
+}
+
+.detail-img{
+    min-height: 350px;
+    border-radius: 15px;
+    text-align: center;
+}
+.detail-img img{
+    width: 400px;
+}
+.product-name{
+    font-size: 32px;
+    font-weight: 600;
+}
+.product-price{
+    font-size: 24px;
+}
+
+/* .detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.star-progress{
+    background-color:var(--primary); 
+}
+.star-progress img{
+    padding: -1px;
+}
+
+.detail-intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-tab-title button{
+    color: var(--primary);
+}
+
+.detail-tab-title .nav-link,.nav-item{
+    border-radius: 10px;
+}
+
+.detail-tab-title .nav-item{
+    margin: auto 10px;
+}
+
+.nav-link.active{
+    background-color: var(--primary);
+    color: white;
+}
+
+.intro-content{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.intro-content::before{
+    content:"";
+    background-image: url("../img/display/watermark.png");
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: 300px;
+    background-repeat:no-repeat;
+}
+
+.product-data{
+    position: relative;
+    background-color: #202020;
+    width: fit-content;
+    padding: 24px;
+    margin: 24px auto;
+    line-height: 32px;
+}
+/* .product-data::after{
+    content: "商品規格";
+    position: absolute;
+    top: -18px;
+    left: 24px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    padding:2px 6px;
+} */
+
+
+
+/* star */
+/* 修改於https://julypenguin.medium.com/%E7%94%A8-css-%E7%95%AB%E5%87%BA%E6%BB%BF%E6%84%8F%E5%BA%A6%E7%9A%84%E6%98%9F%E6%98%9F%E5%92%8C%E7%89%B9%E6%95%88-f653689be8ac */
+.box label{
+    user-select: none;
+}
+.box label::after{
+    content: '☆';
+}
+.box label:hover{
+    cursor:pointer;
+}
+.box label:hover::after{
+    content:'★';
+    color:var(--second);
+}
+.box label:hover~label{
+    content:'★';
+    color:var(--second);
+}
+.box input{
+    display: none;
+}
+
+.box{
+    color: var(--second);
+    font-size: 32px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.box input:checked +label::after{
+    content:'★';
+    color:var(--second);
+}
+.box input:checked ~label::after{
+    content:'★';
+    color:var(--second);
+}
+
+.box input:hover ~label::after{
+    content:'★';
+    color:var(--second);
+}
+
+/* 縮圖區域滾動條樣式 */
+.thumbnail-container::-webkit-scrollbar,
+.scrollspy-example::-webkit-scrollbar {
+    height: 4px; /* 水平滾動條高度 */
+    width: 4px; /* 垂直滾動條寬度 */
+}
+
+.thumbnail-container::-webkit-scrollbar-track,
+.scrollspy-example::-webkit-scrollbar-track {
+    background: #292929; /* 滾動條軌道背景色 */
+}
+
+.thumbnail-container::-webkit-scrollbar-thumb,
+.scrollspy-example::-webkit-scrollbar-thumb {
+    background: #5b5b5b; /* 滾動條滑塊顏色 */
+    border-radius: 3px; /* 滑塊圓角 */
+}
+
+.thumbnail-container::-webkit-scrollbar-thumb:hover,
+.scrollspy-example::-webkit-scrollbar-thumb:hover {
+    background: #888; /* 滑塊懸停時的顏色 */
+}
+
+
+.thumbnail-container {
+    display: flex; /* 彈性佈局 */
+    gap: 10px; /* 縮圖之間的間距 */
+    margin-top: 10px; /* 與主圖片的距離 */
+    max-width: 450px; /* 縮圖區域最大寬度 */
+    overflow-x: auto; /* 當內容超出時，啟用水平滾動條 */
+    white-space: nowrap; /* 防止縮圖換行 */
+    padding-bottom: 10px; /* 增加滾輪與圖片的距離 */
+}
+
+.scrollspy-example {
+    max-height: 350px; /* 限制高度 */
+    overflow-y: auto; /* 垂直滾動 */
+    padding: 10px;
+}
+
+
+.thumbnail{
+    width: 100px; cursor: pointer; border: 1px solid #353535; border-radius: 5px;
+}
+
+
+/* 顏色選擇按鈕樣式 */
+.colors {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.color-btn {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.color-btn.active {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.color-btn.active::after {
+    content: '✔';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 數量選擇按鈕樣式 */
+.quantity-options {
+    margin-top: 20px;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #2e2e2e; /* 深色背景 */
+    color: #fff; /* 白色文字 */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid #3e3e3e; /* 深色邊框 */
+    border-radius: 8px; /* 圓角 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* 微妙陰影 */
+}
+
+.quantity-btn:hover {
+    background-color: #444; /* 懸停時的高亮背景 */
+    color: #fff; /* 懸停時文字保持白色 */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* 增強懸停時陰影效果 */
+}
+
+.quantity-input {
+    background-color: #1b1b1b; /* 深色背景 */
+    color: #fff; /* 白色文字 */
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #3e3e3e; /* 深色邊框 */
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* 微妙陰影 */
+    border-radius: 8px; /* 圓角 */
+    margin: 0px 10px; /* 調整按鈕與輸入框的間距 */
+    pointer-events: none; /* 禁止用戶輸入 */
+}
+
+.quantity-input:focus {
+    outline: none; /* 移除輸入框的聚焦樣式 */
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 按鈕與輸入框的間距 */
+}
+
+
+.cart-btn {
+    padding: 10px 15px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.cart-btn:hover {
+    background-color: var(--second);
+}
+
+
+/* 通知從右側滑入再滑出動畫 */
+@keyframes slideInOut {
+    0% {
+        transform: translateX(300px); /* 初始位置：隱藏在右側 */
+        opacity: 0;
+    }
+    10%, 90% {
+        transform: translateX(0); /* 中間位置：完全可見 */
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(300px); /* 最終位置：隱藏回右側 */
+        opacity: 0;
+    }
+}
+
+/* 通知樣式 */
+#comment-notification ,#cart-notification{
+    animation: slideInOut 2.5s ease-in-out; /* 動畫持續 2 秒 */
+}
+
+
+/* 通知樣式可共用 */
+#comment-notification ,#cart-notification{
+    position: fixed; 
+    top: 100px; 
+    right: 32px; 
+    background-color: #60A15A; 
+    color: white; padding: 10px 20px; 
+    border-radius: 5px; 
+    display: none; 
+    z-index: 1000; 
+    font-size: 14px;
+}

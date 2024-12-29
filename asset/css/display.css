@@ -1,0 +1,40 @@
+.big-photo{
+    width: 70%;
+    margin: auto;
+    /* position: relative; */
+}
+/* .big-photo img{
+    position: absolute;
+} */
+
+.carousel-control-prev {
+    left: -50px;
+}
+.carousel-control-next {
+    right: -50px;
+}
+
+
+
+
+
+@media (min-width: 1200px){
+
+}
+
+/* desktops */
+@media (max-width: 992px) {
+
+}
+
+/* tablets */
+@media (max-width: 768px){
+    
+}
+
+/* phones */
+@media (max-width: 576px){
+    .big-photo{
+        width: 100%;
+    }
+}

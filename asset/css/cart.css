@@ -1,0 +1,624 @@
+.leftside{
+    margin-top: 48px;
+    width: 70%;
+    margin-right: 32px;
+}
+.rightside{
+    margin-top: 48px;
+    min-width: 300px;
+}
+.centerside{
+    width: 60%;
+    margin: auto;
+}
+
+
+.badge{
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777777;
+    border-radius: 10px;
+}
+
+
+
+
+.icon1{
+    color: #CB7D09;
+    left: 75%;
+    top: -20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.icon1:hover{
+    color: #e3a261;
+}
+.link2 .diliver{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.link2{
+    width: 60%;
+    margin: 24px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon2{
+    color: #CB7D09;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.icon2:hover{
+    color: #e3a261;
+}
+.button{
+    letter-spacing: 2px;
+    background-color: #CB7D09;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    margin: 12px auto;
+}
+.button:hover{
+    background-color: #d3983f;
+}
+
+.cart{
+    margin-top: 7%;
+}
+.cart-header{
+    height: 50px;
+    background-color: var(--listHead);
+}
+.block{
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+    padding: 24px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.block2{
+    height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.name{
+    display: flex;
+}
+
+.name1{
+  color: #f8f8f8;
+  display: flex; 
+
+}
+.pn{    
+  font-size: 18px;
+}
+
+.quantity-container {
+    display: flex;
+    justify-content:center;
+  }
+
+  .btn-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(234, 234, 234);
+    cursor: pointer;
+  }
+
+  .btn-circle:hover {
+    background-color: rgb(222, 222, 222);
+  }
+
+  .quantity-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+.line{
+    margin-top: 2%;
+    border: 0.5px solid #aaa7a7;
+}
+
+.block-footer{
+    display: flex;
+    margin-top: 1%;
+}
+.link{
+    text-align: center;
+    margin-left: 10%;
+}
+.total{
+    color: #000000;
+    text-align: center;
+    margin-left: 63%;
+}
+#myDropdown {
+    display: none;
+    transition: display 0.3s ease;
+}
+.dropdown-content {
+    display: none;
+}
+
+.roll{
+    text-align: center;
+    width: 60%;
+    margin:auto;
+    margin-top: 24px;
+    background-color: #e5e5e5;
+    padding: 12px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* .roll:hover{
+    font-size: 18px;
+    padding: 7.2px;
+} */
+.roll:hover{
+    cursor: pointer;
+}
+.cart2-block{
+    height: 260px;
+    position: relative;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+/* .pay{
+    width: 57%;
+}
+.send{
+    width: 40%;
+} */
+.sendtext{
+    padding: 5%;
+}
+.sendtext2{
+    padding: 5%;
+    margin-left:6%;
+}
+.textbox{
+    width: 200px;
+}
+.cart2-header1{
+    width: 500px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F2F2;
+    text-align: left;
+    color: black;
+    padding-top: 3%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.cart2-header2{
+    width: 400px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F2F2;
+    text-align: left;
+    color: black;
+    padding-top: 3%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.paytext1{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    text-align: left;
+    padding-left: 3%;
+
+}
+.paytext2{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    text-align: left;
+    padding-left: 3%;
+    
+}
+.paytext3{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    text-align: left;
+    padding-left: 3%;
+
+}
+.paybutton{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.button-container{
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+}
+
+  .button-container .right-buttons {
+    margin-left: 8%;
+    margin-top: 8%;
+  }
+.paymethod{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #000000;
+}
+.paymethod-botton{
+    position: relative;
+    left: 10px;
+    top: 10px;
+    padding: 3%;
+}
+
+
+
+.paymethod.active {
+    background-color: #ffff;
+    border: 3px solid #CB7D09;
+    color: #CB7D09;
+    font-weight: bold;
+  }
+
+  .paytext1.active {
+    background-color: #ffff;
+    border: 3px solid #CB7D09;
+    color: #CB7D09;
+    font-weight: bold;
+  }
+  .paytext2.active {
+    background-color: #ffff;
+    border: 3px solid #CB7D09;
+    color: #CB7D09;
+    font-weight: bold;
+  }
+  .paytext3.active {
+    background-color: #ffff;
+    border: 3px solid #CB7D09;
+    color: #CB7D09;
+    font-weight: bold;
+  }
+
+
+
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+    position: relative;
+    animation: shake 2s;
+    transition-timing-function:ease-out;
+  }
+  .picture:hover {
+    animation: shake 2s;
+  }
+  .picture .back-pic{
+    position: relative;
+  }
+  .picture .top-pic{
+    position: absolute;
+    animation: paint 3s;
+  }
+
+
+  .cart3text{
+    letter-spacing: 3px;
+    margin: 24px auto;
+    color: #60A15A;
+    text-align: center;
+    font-size: 30px
+    
+  }
+  .cart2{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .money{
+    color: #000000;
+    margin-left: 81%;
+    margin-top: 2%;
+  }
+  .money-text{
+    padding: 3%;
+  }
+  .final-money{
+    font-weight: bold;
+  }
+  .visasa{
+    width: 90px;
+    height: 50px;
+    padding: 5%;
+    margin-left: 10%;
+  }
+
+.creditcard{
+    width:50px;
+}
+
+.right{
+    text-align: right;
+}
+
+
+
+
+.ship{
+    color: rgb(104, 104, 104);
+    font-size: 18px;
+    width: 100%;
+}
+.ship input{
+    display: none;
+}
+.ship label:hover{
+    cursor:pointer;
+    color:#CB7D09;
+    border-color:#CB7D09 ;
+}
+
+.ship label{
+    width: 70%;
+    margin: 5px;
+    padding: 5px;
+    border: rgb(222, 222, 222) solid 2px;
+    border-radius: 5px;
+}
+.ship input:checked+label{
+    border: 3px solid #CB7D09;
+    color: #CB7D09;
+    font-weight: bold;
+    margin:4px;
+}
+
+.ship input:checked+.dropdown-content{
+    display: block;
+}
+
+
+.fill-in{
+    font-size: 18px;
+    line-height: 28px;
+}
+.fill-in input[type~="name"],input[type~="phone"] {
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    border:solid 2px rgb(192, 192, 192);
+    width: 150px;
+}
+.fill-in input[type~="name"]:focus,input[type~="phone"]:focus{
+    border:solid 2px #CB7D09;
+}
+.fill-in input[type~="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    border-radius: 5px;
+    transform: translateY(1px);
+    cursor: pointer;
+}
+.fill-in input[type~="checkbox"]+label{
+    cursor: pointer;
+}
+.fill-in input[type~="checkbox"]+label:hover{
+    color: #CB7D09;
+}
+.fill-in input[type~="checkbox"]:checked {
+    background-color: #CB7D09;
+}
+
+.fill-in div{
+    margin: 12px auto;
+}
+
+.remove{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+        /* 基本背景與文字顏色設定 */
+        body {
+            background-color: #121212; /* 深色背景 */
+            color: #f8f8f8; /* 淡色文字 */
+            font-family: 'Noto Sans TC', 'Inter', sans-serif;
+        }
+    
+        header, footer {
+            background-color: #1e1e1e; /* 深色標題與頁尾 */
+            color: #f8f8f8;
+        }
+    
+        a, a:hover {
+            color: var(--primary); /* 高亮文字顏色 */
+            text-decoration: none;
+        }
+    
+        .navbar {
+            border-bottom: 1px solid #333;
+        }
+    
+        /* 購物車區塊背景與邊框 */
+        .cart-header {
+            background-color: #1e1e1e;
+            border-bottom: 1px solid #333;
+            color: #f8f8f8;
+        }
+    
+        .block {
+            background-color: #1e1e1e; /* 卡片區域背景 */
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+    
+        /* 按鈕樣式 */
+        .button {
+            background-color: var(--primary);
+            color: #121212;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+        .button:hover {
+            background-color: var(--second); /* 按鈕懸停效果 */
+        }
+    
+        /* 數量調整按鈕 */
+        .quantity-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .btn-circle {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #333;
+            color: #f8f8f8;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 0 5px;
+            border: none;
+        }
+    
+        .btn-circle:hover {
+            background-color: #444; /* 鼠標懸停效果 */
+        }
+    
+        /* 數量顯示框 */
+        .quantity-display {
+            width: 40px;
+            text-align: center;
+            font-size: 16px;
+            color: #f8f8f8;
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    
+        /* 購物車總計樣式 */
+        .cart-header h4 {
+            color: var(--primary);
+        }
+    
+        /* 表格標題與邊框 */
+        .n {
+            color: #f8f8f8;
+        }
+    
+        .line {
+            border-top: 1px solid #333;
+            margin: 10px 0;
+        }
+    
+        /* 圖片樣式 */
+        .pn img {
+            border-radius: 5px;
+            object-fit: cover;
+        }
+    
+        /* 移除按鈕樣式 */
+        .remove {
+            background-color: transparent;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+        }
+    
+        .remove:hover {
+            color: #f1a934;
+        }
+    
+        /* 步驟條樣式 */
+        .step {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+        }
+    
+        .step1 {
+            color: #f8f8f8;
+            text-align: center;
+        }
+    
+        .step1 .badge {
+            background-color: #333;
+            color: #f8f8f8;
+            font-size: 16px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+        }
+    
+        .step1.now .badge {
+            background-color: var(--primary);
+            color: #121212;
+        }
+    
+        .step1.last {
+            opacity: 0.5; /* 未完成步驟較暗 */
+        }

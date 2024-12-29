@@ -1,0 +1,36 @@
+.index-logo{
+    width: 100%;
+}
+.sayHi{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 32px;
+}
+
+
+/* Extra large devices */
+@media (min-width: 1200px){
+
+}
+
+/* desktops */
+@media (max-width: 992px) {
+
+}
+
+/* tablets */
+@media (max-width: 768px){
+
+}
+
+/* phones */
+@media (max-width: 576px){
+    .sayHi{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:flex-end;
+        justify-content: left;
+        gap: 32px;
+    }
+}
