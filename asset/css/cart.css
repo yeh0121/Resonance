@@ -13,20 +13,7 @@
 }
 
 
-.badge{
-    display: inline-block;
-    min-width: 10px;
-    padding: 3px 7px;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    background-color: #777777;
-    border-radius: 10px;
-}
+
 
 
 
@@ -588,37 +575,4 @@ article{
             color: #f1a934;
         }
     
-        /* 步驟條樣式 */
-        .step {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin: 20px 0;
-        }
-    
-        .step1 {
-            color: #f8f8f8;
-            text-align: center;
-        }
-    
-        .step1 .badge {
-            background-color: #333;
-            color: #f8f8f8;
-            font-size: 16px;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 10px;
-        }
-    
-        .step1.now .badge {
-            background-color: var(--primary);
-            color: #121212;
-        }
-    
-        .step1.last {
-            opacity: 0.5; /* 未完成步驟較暗 */
-        }
+        

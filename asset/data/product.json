@@ -1,0 +1,742 @@
+{
+    "Bose": [
+        {
+            "model": "SoundLink Flex",
+            "colors": [
+               "暮色藍" ,
+                "經典黑",
+                "沙丘灰",
+                "薄荷綠"
+            ],
+            "price": "5,900",
+            "features": [
+                "帶你雲遊四海的動人聲音",
+                "隨時隨地享受高傳真音質",
+                "任何擺放方式都能播放"
+            ],
+            "specifications": {
+                "accessories": [
+                    "USB Type-C到 USB Type-A 連接線",
+                    "安全文件"
+                ],
+                "weight": 0.59,
+                "dimensions": "9.04 x 20.14 x 5.23",
+                "bluetooth": {
+                    "version": "5.5",
+                    "range": 9
+                }
+            },
+            "images": [
+                "bose/SoundLink Flex/SoundLink Flex 1.png",
+                "bose/SoundLink Flex/SoundLink Flex 2.png","bose/SoundLink Flex/SoundLink Flex 3.png","bose/SoundLink Flex/SoundLink Flex 4.png"
+            ]
+        },
+        {
+            "model": "Portable Home Speaker",
+            "colors": [
+                "黑色",
+                "銀色"
+            ],
+            "price": "14,900",
+            "features": [
+                "最多功能的智慧揚聲器",
+                "輕鬆串流",
+                "簡單設定"
+            ],
+            "specifications": {
+                "accessories": [
+                    "USB-C 電源供應器",
+                    "使用說明書"
+                ],
+                "weight": 1.06,
+                "dimensions": "19.15 x 11.9 x 10.4",
+                "bluetooth": {
+                    "version": "4.2",
+                    "range": 30
+                }
+            },
+            "images": [
+                "bose/Portable Home Speaker/Portable Home Speaker 1.png","bose/Portable Home Speaker/Portable Home Speaker 2.png"
+            ]
+        },
+        {
+            "model": "SoundLink Max",
+            "colors": [
+                "黑色",
+                "藍色"
+            ],
+            "price": "15,900",
+            "features": [
+                "高清音質",
+                "強勁重低音",
+                "支援聲音分享"
+            ],
+            "specifications": {
+                "accessories": [
+                    "USB-C 連接線",
+                    "快速指南"
+                ],
+                "weight": 2.1,
+                "dimensions": "20.5 x 14.5 x 7.2",
+                "bluetooth": {
+                    "version": "5.0",
+                    "range": 10
+                }
+            },
+            "images": [
+                "bose/SoundLink Max/SoundLink Max 1.png","bose/SoundLink Max/SoundLink Max 2.png"
+            ]
+        },
+        {
+            "model": "SoundLink Micro",
+            "colors": [
+                "藍",
+                "白",
+                "黑"
+            ],
+            "price": "4,800",
+            "features": [
+                "超輕便攜帶",
+                "防水防塵",
+                "清晰音效"
+            ],
+            "specifications": {
+                "accessories": [
+                    "USB-C 線"
+                ],
+                "weight": 0.29,
+                "dimensions": "9.8 x 9.8 x 3.5",
+                "bluetooth": {
+                    "version": "4.2",
+                    "range": 8
+                }
+            },
+            "images": [
+                "bose/SoundLink Micro/SoundLink Micro 1.png","bose/SoundLink Micro/SoundLink Micro 2.png","bose/SoundLink Micro/SoundLink Micro 3.png"
+            ]
+        },
+        {
+            "model": "SoundLink Mini",
+            "colors": [
+                "黑",
+                "白"
+            ],
+            "price": "6,900",
+            "features": [
+                "小型便攜",
+                "高品質音效",
+                "藍牙與 AUX 連接"
+            ],
+            "specifications": {
+                "accessories": [
+                    "充電底座",
+                    "USB-C 線"
+                ],
+                "weight": 0.67,
+                "dimensions": "18.0 x 5.1 x 5.8",
+                "bluetooth": {
+                    "version": "4.1",
+                    "range": 10
+                }
+            },
+            "images": [
+                "bose/SoundLink Mini/SoundLink Mini 1.png","bose/SoundLink Mini/SoundLink Mini 2.png"
+            ]
+        }
+    ],
+    "Harman Kardon": [
+        {
+            "model": "Aura Studio 4",
+            "colors": [
+                "黑色"
+            ],
+            "price": "10,990",
+            "features": [
+                "美妙的HARMAN KARDON 音效",
+                "獨特的讚石效果燈光"
+            ],
+            "specifications": {
+                "accessories": [
+                    "電源線",
+                    "快速入門指南",
+                    "安全說明書",
+                    "保固卡"
+                ],
+                "weight": 3.6,
+                "dimensions": "30.6 x 9.7 x 12.3",
+                "bluetooth": {
+                    "version": "4.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "harman/Aura Studio 4/Aura Studio 4 1.png",
+                "harman/Aura Studio 4/Aura Studio 4 2.png",
+                "harman/Aura Studio 4/Aura Studio 4 3.png"
+            ]
+        },
+        {
+            "model": "Onyx Studio 8",
+            "colors": [
+                "黑",
+                "白"
+            ],
+            "price": "9,990",
+            "features": [
+                "攜帶方便",
+                "低音渾厚",
+                "支援雙設備連接"
+            ],
+            "specifications": {
+                "accessories": [
+                    "快速指南",
+                    "電源適配器"
+                ],
+                "weight": 3.0,
+                "dimensions": "27.5 x 16.3 x 29.5",
+                "bluetooth": {
+                    "version": "5.0",
+                    "range": 10
+                }
+            },
+            "images": [
+                "harman/Onyx Studio 8/Onyx Studio 8 3.png"
+                ,"harman/Onyx Studio 8/Onyx Studio 8 1.png",
+                "harman/Onyx Studio 8/Onyx Studio 8 4.png",
+                "harman/Onyx Studio 8/Onyx Studio 8 2.png"
+            ]
+        },
+        {
+            "model": "SoundSticks 4",
+            "colors": [
+                "透明"
+            ],
+            "price": "11,990",
+            "features": [
+                "視覺與音效結合",
+                "高清晰度音質",
+                "環繞低音體驗"
+            ],
+            "specifications": {
+                "accessories": [
+                    "電源線",
+                    "快速指南"
+                ],
+                "weight": 4.4,
+                "dimensions": "28.3 x 23.2 x 23.2",
+                "bluetooth": {
+                    "version": "4.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "harman/SoundSticks 4/SoundSticks 4 1.png",
+                 "harman/SoundSticks 4/SoundSticks 4 2.png",
+                  "harman/SoundSticks 4/SoundSticks 4 3.png",
+                   "harman/SoundSticks 4/SoundSticks 4 4.png"
+            ]
+        }
+    ],
+    "JBL": [
+        {
+            "model": "Flip 6",
+            "colors": [
+                "粉",
+                "藍",
+                "綠",
+                "白",
+                "黑"
+            ],
+            "price": "5,900",
+            "features": [
+                "更大聲、更震撼的音效",
+                "12 小時的播放時間",
+                "IP67 防水防塵"
+            ],
+            "specifications": {
+                "accessories": [
+                    "保固卡",
+                    "說明書",
+                    "入門指南",
+                    "Type C 連接線"
+                ],
+                "weight": 0.55,
+                "dimensions": "17.8 x 6.8 x 7.2",
+                "bluetooth": {
+                    "version": "5.1",
+                    "range": 10
+                }
+            },
+            "images": [
+                "jbl/Flip 6/Flip 6 1.png",
+                "jbl/Flip 6/Flip 6 2.png",
+                "jbl/Flip 6/Flip 6 3.png",
+                "jbl/Flip 6/Flip 6 4.png",
+                "jbl/Flip 6/Flip 6 5.png"
+            ]
+        },
+        {
+            "model": "Go 4",
+            "colors": [
+                "橘/黑",
+                "粉",
+                "紫",
+                "藍",
+                "紅"
+            ],
+            "price": "2,480",
+            "features": [
+                "具有更強勁低音的超可攜式 JBL Pro Sound 音效",
+                "長達 7 小時的播放時間",
+                "防水防塵"
+            ],
+            "specifications": {
+                "accessories": [
+                    "保固卡",
+                    "說明書",
+                    "入門指南",
+                    "Type C 連接線"
+                ],
+                "weight": 0.18,
+                "dimensions": "8.6 x 6.9 x 2.4",
+                "bluetooth": {
+                    "version": "5.1",
+                    "range": 10
+                }
+            },
+            "images": [
+                "jbl/Go 4/Go 4 1.png","jbl/Go 4/Go 4 2.png","jbl/Go 4/Go 4 3.png","jbl/Go 4/Go 4 4.png","jbl/Go 4/Go 4 5.png"
+            ]
+        },
+        {
+            "model": "PartyBox On-the-Go",
+            "colors": [
+                "黑"
+            ],
+            "price": "19,800",
+            "features": [
+                "動人的 JBL Pro Sound",
+                "同步燈光秀",
+                "隨附 JBL 無線麥克風"
+            ],
+            "specifications": {
+                "accessories": [
+                    "保固卡",
+                    "說明書",
+                    "入門指南",
+                    "1 個無線麥克風"
+                ],
+                "weight": 6.1,
+                "dimensions": "49.0 x 24.4 x 22.9",
+                "bluetooth": {
+                    "version": "4.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 1.png",
+                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 2.png",
+                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 3.png",
+                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 4.png"
+            ]
+        },
+        {
+            "model": "PartyBox Stage 320",
+            "colors": [
+                "黑"
+            ],
+            "price": "27,500",
+            "features": [
+                "強勁的 JBL Pro Sound 音效",
+                "未來主義燈光秀",
+                "播放時間長達 18 小時"
+            ],
+            "specifications": {
+                "accessories": [
+                    "保固卡",
+                    "說明書",
+                    "入門指南",
+                    "交流電源線"
+                ],
+                "weight": 16.5,
+                "dimensions": "33.5 x 67 x 38.5",
+                "bluetooth": {
+                    "version": "5.4",
+                    "range": 10
+                }
+            },
+            "images": [
+                "jbl/PartyBox Stage 320/PartyBox Stage 320 1.png",
+                "jbl/PartyBox Stage 320/PartyBox Stage 320 2.png",
+                "jbl/PartyBox Stage 320/PartyBox Stage 320 3.png",
+                "jbl/PartyBox Stage 320/PartyBox Stage 320 4.png"
+            ]
+        },
+        {
+            "model": "Pulse 5",
+            "colors": [
+                "黑"
+            ],
+            "price": "11,800",
+            "features": [
+                "引人注目的 360 度燈光秀",
+                "所有方向的大膽音效和深低音",
+                "極致防塵與防水"
+            ],
+            "specifications": {
+                "accessories": [
+                    "保固卡",
+                    "說明書",
+                    "入門指南",
+                    "Type C 連接線"
+                ],
+                "weight": 1.47,
+                "dimensions": "10.7 x 21.4 x 13.2",
+                "bluetooth": {
+                    "version": "5.3",
+                    "range": 10
+                }
+            },
+            "images": [
+                "jbl/Pulse 5/Pulse 5 1.png",
+                 "jbl/Pulse 5/Pulse 5 2.png", "jbl/Pulse 5/Pulse 5 3.png"
+            ]
+        }
+    ],
+    "Marshall": [
+        {
+            "model": "Acton III",
+            "colors": [
+                "黑",
+                "白",
+                "棕"
+            ],
+            "price": "12,990",
+            "features": [
+                "Marshall 標誌性音質",
+                "最新藍牙技術",
+                "經典設計"
+            ],
+            "specifications": {
+                "accessories": [
+                    "電源線",
+                    "快速指南"
+                ],
+                "weight": 3.1,
+                "dimensions": "26 x 17 x 15",
+                "bluetooth": {
+                    "version": "5.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "marshall/Acton III/Acton III 1.png",
+                "marshall/Acton III/Acton III 2.png",
+                "marshall/Acton III/Acton III 3.png",
+                "marshall/Acton III/Acton III 4.png"
+            ]
+        },
+        {
+            "model": "Emberton III",
+            "colors": [
+                "古銅黑",
+                "奶油白"
+            ],
+            "price": "6,490",
+            "features": [
+                "Marshall 標誌性音質",
+                "立體聲技術",
+                "32 小時續航力"
+            ],
+            "specifications": {
+                "accessories": [
+                    "USBC 充電線",
+                    "使用說明書與安全手冊"
+                ],
+                "weight": 0.69,
+                "dimensions": "16 x 6.8 x 7.69",
+                "bluetooth": {
+                    "version": "5.3",
+                    "range": 10
+                }
+            },
+            "images": [
+                "marshall/Emberton III/Emberton III 1.png",
+                "marshall/Emberton III/Emberton III 2.png",
+                "marshall/Emberton III/Emberton III 3.png"
+            ]
+        },
+        {
+            "model": "Stanmore III",
+            "colors": [
+                "黑",
+                "白",
+                "棕"
+            ],
+            "price": "17,990",
+            "features": [
+                "大空間音效",
+                "經典外觀設計",
+                "支援多設備"
+            ],
+            "specifications": {
+                "accessories": [
+                    "電源線",
+                    "快速指南"
+                ],
+                "weight": 4.3,
+                "dimensions": "35 x 19.5 x 18.5",
+                "bluetooth": {
+                    "version": "5.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "marshall/Stanmore III/Stanmore III 2.png",
+                "marshall/Stanmore III/Stanmore III 3.png",
+                "marshall/Stanmore III/Stanmore III 1.png",
+                "marshall/Stanmore III/Stanmore III 4.png"
+            ]
+        },
+        {
+            "model": "Willen II",
+            "colors": [
+                "黑",
+                "白"
+            ],
+            "price": "3,990",
+            "features": [
+                "輕便攜帶",
+                "多功能按鈕",
+                "IP67 防水防塵"
+            ],
+            "specifications": {
+                "accessories": [
+                    "USBC 線",
+                    "快速指南"
+                ],
+                "weight": 0.31,
+                "dimensions": "10 x 10 x 4",
+                "bluetooth": {
+                    "version": "5.1",
+                    "range": 10
+                }
+            },
+            "images": [
+                "marshall/Willen II/Willen II 2.png",
+                "marshall/Willen II/Willen II 1.png",
+                "marshall/Willen II/Willen II 3.png"
+            ]
+        },
+        {
+            "model": "Woburn III",
+            "colors": [
+                "黑",
+                "白"
+            ],
+            "price": "23,990",
+            "features": [
+                "強勁音效",
+                "經典設計",
+                "支援 HDMI 輸入"
+            ],
+            "specifications": {
+                "accessories": [
+                    "電源線",
+                    "快速指南"
+                ],
+                "weight": 7.45,
+                "dimensions": "40 x 31 x 20",
+                "bluetooth": {
+                    "version": "5.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "marshall/Woburn III/Woburn III 2.png",
+                "marshall/Woburn III/Woburn III 1.png",
+                "marshall/Woburn III/Woburn III 3.png"
+            ]
+        }
+    ],
+    "Sony": [
+        {
+            "model": "BRAVIA Theatre U",
+            "colors": [
+                "黑"
+            ],
+            "price": "89,900",
+            "features": [
+                "支援 Dolby Atmos",
+                "12 小時續航，支援快充"
+            ],
+            "specifications": {
+                "accessories": [
+                    "USB Type-C連接線",
+                    "專用音訊轉接器+專用音源線"
+                ],
+                "weight": 0.268,
+                "dimensions": "23.5 x 4.8 x 17.8",
+                "bluetooth": {
+                    "version": "5.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "sony/BRAVIA Theatre U/BRAVIA Theatre U 1.png",
+                "sony/BRAVIA Theatre U/BRAVIA Theatre U 2.png",
+                "sony/BRAVIA Theatre U/BRAVIA Theatre U 3.png",
+                "sony/BRAVIA Theatre U/BRAVIA Theatre U 4.png"
+            ]
+        },
+        {
+            "model": "HT-AX7",
+            "colors": [
+                "米白色"
+            ],
+            "price": "15,900",
+            "features": [
+                "空間音效可在您想要的任何地方創造環繞音效體驗",
+                "播放完美的派對曲調或提供背景音樂"
+            ],
+            "specifications": {
+                "accessories": [
+                    "AC 變壓器",
+                    "快速安裝手冊",
+                    "USB Type-C"
+                ],
+                "weight": 1.4,
+                "dimensions": "30.6 x 9.7 x 12.3",
+                "bluetooth": {
+                    "version": "5.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "sony/HT-AX7/HT-AX7 1.png",
+                "sony/HT-AX7/HT-AX7 2.png",
+                "sony/HT-AX7/HT-AX7 3.png",
+                "sony/HT-AX7/HT-AX7 4.png"
+            ]
+        },
+        {
+            "model": "LSPX-S3",
+            "colors": [
+                "銀"
+            ],
+            "price": "16,800",
+            "features": [
+                "音樂與燈光結合",
+                "360度音場",
+                "長續航電池"
+            ],
+            "specifications": {
+                "accessories": [
+                    "電源適配器",
+                    "快速指南"
+                ],
+                "weight": 1.1,
+                "dimensions": "9.4 x 28.9 x 9.4",
+                "bluetooth": {
+                    "version": "5.0",
+                    "range": 10
+                }
+            },
+            "images": [
+                "sony/LSPX-S3/LSPX-S3 1.png",
+                "sony/LSPX-S3/LSPX-S3 2.png",
+                "sony/LSPX-S3/LSPX-S3 3.png",
+                "sony/LSPX-S3/LSPX-S3 4.png"
+            ]
+        },
+        {
+            "model": "SRS-RA3000",
+            "colors": [
+                "黑",
+                "白"
+            ],
+            "price": "10,800",
+            "features": [
+                "3D 音效",
+                "Wi-Fi 連接",
+                "內建 Chromecast"
+            ],
+            "specifications": {
+                "accessories": [
+                    "電源線",
+                    "快速指南"
+                ],
+                "weight": 2.5,
+                "dimensions": "14.6 x 24.7 x 15.5",
+                "bluetooth": {
+                    "version": "5.0",
+                    "range": 10
+                }
+            },
+            "images": [
+                "sony/SRS-RA3000/SRS-RA3000 1.png",
+                "sony/SRS-RA3000/SRS-RA3000 2.png",
+                "sony/SRS-RA3000/SRS-RA3000 3.png",
+                "sony/SRS-RA3000/SRS-RA3000 4.png",
+                "sony/SRS-RA3000/SRS-RA3000 5.png"
+            ]
+        },
+        {
+            "model": "SRS-XB100",
+            "colors": [
+                "橘",
+                "藍",
+                "白",
+                "黑"
+            ],
+            "price": "2,900",
+            "features": [
+                "超便攜設計",
+                "高音質重低音",
+                "防水設計"
+            ],
+            "specifications": {
+                "accessories": [
+                    "快速指南",
+                    "充電線"
+                ],
+                "weight": 0.2,
+                "dimensions": "7.6 x 9.5 x 7.6",
+                "bluetooth": {
+                    "version": "5.3",
+                    "range": 10
+                }
+            },
+            "images": [
+                "sony/SRS-XB100/SRS-XB100 5.png","sony/SRS-XB100/SRS-XB100 2.png","sony/SRS-XB100/SRS-XB100 4.png","sony/SRS-XB100/SRS-XB100 3.png","sony/SRS-XB100/SRS-XB100 1.png"]
+        },
+        {
+            "model": "SRS-XG300",
+            "colors": [
+                "灰",
+                "黑"
+            ],
+            "price": "7,900",
+            "features": [
+                "超強重低音",
+                "LED 音效燈光",
+                "IP67 防水防塵"
+            ],
+            "specifications": {
+                "accessories": [
+                    "充電線",
+                    "快速指南"
+                ],
+                "weight": 3.0,
+                "dimensions": "31.8 x 13.8 x 13.6",
+                "bluetooth": {
+                    "version": "5.2",
+                    "range": 10
+                }
+            },
+            "images": [
+                "sony/SRS-XG300/SRS-XG300 1.png", "sony/SRS-XG300/SRS-XG300 2.png", "sony/SRS-XG300/SRS-XG300 3.png", "sony/SRS-XG300/SRS-XG300 4.png"
+            ]
+        }
+    ]
+}

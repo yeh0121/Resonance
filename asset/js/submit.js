@@ -50,3 +50,15 @@
 
 
 
+        function showCart() {
+            const notification = document.getElementById('cart-notification');
+
+            // 顯示通知
+            notification.style.display = 'block';
+
+            
+            // 在2秒後隱藏通知
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 2000);
+        }

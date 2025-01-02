@@ -26,145 +26,7 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">
-                    <div class="logo">
-                        <img src="../asset/img/icon/logo big.png" alt="">
-
-                    </div>
-                </a>
-                <button id="nav-dropbtn" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"
-                    onclick="document.getElementById('nav-dropbtn').classList.toggle('rotate180')">
-                    <span><i class="fa-solid fa-caret-down"></i></span>
-                </button>
-
-                <div class="collapse navbar-collapse  mb-3 mb-md-0" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./all.html">All</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./harman.html">Harman Kardon</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./sony.html">Sony</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./bose.html">Bose</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./marshall.html">Marshall</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./jbl.html">JBL</a>
-                        </li>
-                    </ul>
-
-                    <!-- 三個icon -->
-                    <ul class="navbar-nav-md flex-c-c mb-2 mb-lg-0">
-                        <li class="nav-icon">
-                            <a href="./index.html" class="nav-link"><i class="fa-solid fa-house-chimney"></i></a>
-                        </li>
-                        <!-- 購物車icon(一班會員登入後才顯示) -->
-                        <li class="nav-icon">
-                            <a href="./cart.html" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
-                        </li>
-                        <!-- 登入前user-btn -->
-                        <li class="nav-icon" id="login-btn">
-                            <button class="nav-link" onclick="document.getElementById('sign').style.display='block'">
-                                <i class="fa-solid fa-user-large"></i>
-                            </button>
-                        </li>
-
-                        <!-- 登入後user-btn -->
-                        <li class="nav-icon dropdown" id="logout-btn" style="display: none;">
-                            <a id="log-out" href="#" class="nav-link dropdown-toggle" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <i class="fa-solid fa-user-large"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./memberorder.html">會員中心</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#" onclick="logout()">登出</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-
-                    <!-- 搜尋商品 -->
-                    <form class="" role="search" method="get" action="./search.html">
-                        <div class="logo">
-                            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        </div>
-                    </form>
-                </div>
-            </div>
-
-            <!-- 登入註冊的小視窗(後端可以另外建一個檔) -->
-            <div id="sign">
-                <div class="sign-area">
-                    <div class="quit">
-                        <button type="button" class="quit-btn"
-                            onclick="document.getElementById('sign').style.display='none'">
-                            <i class="fa-solid fa-xmark"></i>
-                        </button>
-                    </div>
-
-                    <div class="sign-brand">
-                        <div class="logo flex-c-c">
-                            <img class="mx-2" src="../asset/img/icon/logo big.png" alt="">
-                        </div>
-                    </div>
-
-                    <ul class="flex-c-c nav-pills" id="pills-tab" role="tablist">
-                        <li class="tab-item" role="presentation">
-                            <button class="tab-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true">登入</button>
-                        </li>
-                        <li class="tab-item" role="presentation">
-                            <button class="tab-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                                aria-selected="false">註冊</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="pills-tabContent">
-                        <!-- 登入 -->
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                            aria-labelledby="pills-home-tab">
-                            <form>
-                                <div class="input-area">
-                                    <input class="sign-text" type="text" name="" id="" placeholder="帳號或電子郵件">
-                                    <input class="sign-text" type="password" name="" id="" placeholder="密碼">
-                                    <br>
-                                    <button class="sign-btn" type="submit" onclick="login()">登入</button>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- 註冊 -->
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab">
-                            <form>
-                                <div class="input-area">
-                                    <input class="sign-text" type="text" name="" id="" placeholder="帳號">
-                                    <input class="sign-text" type="text" name="" id="" placeholder="電子郵件">
-                                    <input class="sign-text" type="password" name="" id="" placeholder="密碼">
-                                    <button class="sign-btn" type="submit">註冊</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <div id="header-container"></div>
 
     <main>
         <!-- 商品資訊 -->
@@ -174,60 +36,29 @@
                     <div class="col-6">
                         <div class="detail-img">
                             <!-- 主圖片區 -->
-                            <img id="main-image" src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 1.png"
-                                alt="">
+                            <img id="main-image" src="" alt="Product Image">
                         </div>
                         <!-- 縮圖區 -->
                         <div class="thumbnail-container"
                             style="display: flex; gap: 10px; margin-top: 10px; max-width: 450px; overflow-x: auto; white-space: nowrap;">
-                            <img class="thumbnail" src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 1.png"
-                                alt="">
-                            <img class="thumbnail" src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 2.png"
-                                alt="">
-                            <img class="thumbnail" src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 3.png"
-                                alt="">
-                            <img class="thumbnail" src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 4.png"
-                                alt="">
-                            <img class="thumbnail" src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 3.png"
-                                alt="">
                         </div>
-
-
                     </div>
                     <div class="col-6">
                         <div class="detail-intro">
-                            <div class="product-name">
-                                SoundLink Flex
-                            </div>
-                            <div class="product-price">
-                                NT$5,900
-                            </div>
+                            <div class="product-name"></div>
+                            <div class="product-price"></div>
                             <div class="flex-c-l mb-2">
-                                <!-- to後端：星星進度條改width的%數(因為有小數點) -->
                                 <div>
                                     <div class="star-progress" style="width: 90%;">
                                         <img src="../asset/img/ad/star.png" width="150px" alt="">
                                     </div>
                                 </div>
-                                <div class="mx-2">
-                                    4.8(20)
-                                </div>
+                                <div class="mx-2">4.8(20)</div>
                             </div>
-
                             <div class="color-options" style="margin-top: 20px;">
                                 <div class="color-label">顏色</div>
-                                <div class="colors">
-                                    <button class="color-btn" data-color="暮色藍" style="background-color: #151515; "
-                                        onclick="selectColor(this, '暮色藍', '../asset/img/product/bose/SoundLink Flex/SoundLink Flex 1.png')">暮色藍</button>
-                                    <button class="color-btn" data-color="經典黑" style="background-color: #151515; "
-                                        onclick="selectColor(this, '經典黑', '../asset/img/product/bose/SoundLink Flex/SoundLink Flex 2.png')">經典黑</button>
-                                    <button class="color-btn" data-color="沙丘灰" style="background-color: #151515; "
-                                        onclick="selectColor(this, '沙丘灰', '../asset/img/product/bose/SoundLink Flex/SoundLink Flex 3.png')">沙丘灰</button>
-                                    <button class="color-btn" data-color="薄荷綠" style="background-color: #151515; "
-                                        onclick="selectColor(this, '薄荷綠', '../asset/img/product/bose/SoundLink Flex/SoundLink Flex 4.png')">薄荷綠</button>
-                                </div>
+                                <div class="colors"></div>
                             </div>
-
                             <div class="quantity-options">
                                 <div class="color-label">數量</div>
                                 <div class="quantity-buttons">
@@ -236,235 +67,213 @@
                                     <button type="button" class="quantity-btn" onclick="changeQuantity(1)">+</button>
                                 </div>
                             </div>
-
-                            <!-- <button type="button" class="cart-btn" style="width: 100%; margin-top: 20px;">加入購物車</button> -->
-
-
-                            <!-- 右上角通知文字 -->
-                            <div id="cart-notification">
-                                ✔ 已加入購物車
-                            </div>
-                            <div id="comment-notification">
-                                ✔ 評論已送出
-                            </div>
-
-                            <!-- 加入購物車按鈕 -->
+                            <div id="cart-notification">✔ 已加入購物車</div>
+                            <div id="comment-notification">✔ 評論已送出</div>
                             <button type="button" class="cart-btn" style="width: 100%; margin-top: 20px;"
                                 onclick="showCartNotification()">加入購物車</button>
-
-
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- 商品介紹、評價 -->
+        <!-- 商品介紹 -->
         <section>
             <div style="padding:0px 24px;">
                 <h2 class="page-title center">商品描述</h2>
                 <div class="tab-content" id="detail-tabContent">
-                    <!-- 商品特色 -->
-                    <div class="intro-content">
-                        <div>帶你雲遊四海的動人聲音</div>
-                        <div>隨時隨地享受高傳真音質</div>
-                        <div>加入更多揚聲器，享受更宏亮的聲音、更歡樂的時光。</div>
-                        <div>任何擺放方式都能播放</div>
-                        <div>可播放一整天的續航力</div>
-                    </div>
-                    <!-- 商品規格 -->
-                    <div class="product-data rounded-3 shadow-sm">
-                        <div style="font-weight: 700;">商品規格</div>
-                        <div>配件：USB Type-C到 USB Type-A 連接線、安全文件</div>
-                        <div>重量(kg)：0.59</div>
-                        <div>尺寸(cm): 9.04 x 20.14 x 5.23 </div>
-                        <div>耐溫：0°C～90°C</div>
-                        <div>藍牙技術：5.5</div>
-                        <div>藍牙連接範圍(m)：9</div>
-                    </div>
+                    <div class="intro-content"></div>
+                    <div class="product-data rounded-3 shadow-sm"></div>
+                </div>
+            </div>
+        </section>
 
-                    <!-- 商品評價 -->
-                    <div class="" id="detail-profile" role="tabpanel" aria-labelledby="detail-profile-tab">
-                        <h2 class="page-title center">商品評價</h2>
-                        <div class="container">
-                            <div class="row flex-c-c">
-                                <!-- 顯示評論-->
-                                <div class="col-md-8">
-                                    <div style="background-color: var(--gray); padding: 12px; margin-bottom:12px;"
-                                        class="flex-c-l shadow-sm rounded-3">
-                                        <div style="font-size: 32px;">4.0</div>
-                                        <div class="flex-c-l m-3">
 
-                                            <div style="color: #E68F15; font-size: 24px;">★★★★☆</div>
-                                            <div class="mx-2">
-                                                (20)
-                                            </div>
+        <section>
+            <div style="padding:0px 24px;">
+
+
+                <!-- 商品評價 -->
+                <div class="" id="detail-profile" role="tabpanel" aria-labelledby="detail-profile-tab">
+                    <h2 class="page-title center">商品評價</h2>
+                    <div class="container">
+                        <div class="row flex-c-c">
+                            <!-- 顯示評論-->
+                            <div class="col-md-8">
+                                <div style="background-color: var(--gray); padding: 12px; margin-bottom:12px;"
+                                    class="flex-c-l shadow-sm rounded-3">
+                                    <div style="font-size: 32px;">4.0</div>
+                                    <div class="flex-c-l m-3">
+
+                                        <div style="color: #E68F15; font-size: 24px;">★★★★☆</div>
+                                        <div class="mx-2">
+                                            (20)
                                         </div>
-                                    </div>
-                                    <div style="padding:12px; background-color: var(--gray); position: relative; overflow-y: scroll;  height:350px"
-                                        data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
-                                        class="scrollspy-example shadow-sm rounded-3" tabindex="0">
-                                        <!-- 評論 -->
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-                                        <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
-                                            <img src="../asset/img/icon/user-photo.png" style="margin: 12px;"
-                                                width="52px" alt="">
-                                            <div style="flex-grow: 1;">
-                                                <div class="flex-c-c" style="justify-content: space-between;">
-                                                    <div style="font-size: 18px;">小杰</div>
-                                                    <div>2024/12/30 02:15</div>
-                                                </div>
-                                                <div style="color:var(--second);">
-                                                    ★★★★☆
-                                                </div>
-                                                <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
-                                            </div>
-                                        </div>
-
-
-
                                     </div>
                                 </div>
-                                <!-- 評論通知 -->
+                                <div style="padding:12px; background-color: var(--gray); position: relative; overflow-y: scroll;  height:350px"
+                                    data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0"
+                                    class="scrollspy-example shadow-sm rounded-3" tabindex="0">
+                                    <!-- 評論 -->
 
-
-                                <!-- 留下評論 -->
-                                <form class="col-md-4" action="comment.jsp" method="post"
-                                    onsubmit="submitComment(event)">
-                                    <div style="text-align: center; font-size: 24px;">留下評論</div>
-                                    <hr style="width: 50%; margin: 12px auto;  border: 1px solid black;">
-                                    <div>評價</div>
-                                    <div class="box">
-                                        <input type="radio" name="star" id="score5" value="5" />
-                                        <label class="star" for="score5"></label>
-
-                                        <input type="radio" name="star" id="score4" value="4" />
-                                        <label class="star" for="score4"></label>
-
-                                        <input type="radio" name="star" id="score3" value="3" />
-                                        <label class="star" for="score3"></label>
-
-                                        <input type="radio" name="star" id="score2" value="2" />
-                                        <label class="star" for="score2"></label>
-
-                                        <input type="radio" name="star" id="score1" value="1" />
-                                        <label class="star" for="score1"></label>
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
                                     </div>
-                                    <div>評論</div>
-                                    <textarea
-                                        style="background-color: #202020;color: #f8f8f8;width: 100%; padding: 12PX; border-radius: 10px; border: none;"
-                                        name="comment" id="comment" cols="30" rows="8"></textarea>
-                                    <button type="submit" class="cart-btn">送出評論</button>
-                                </form>
 
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
+                                    </div>
+
+                                    <div style="margin: 12px auto; padding: 12px;" class="flex-c-l">
+                                        <img src="../asset/img/icon/user-photo.png" style="margin: 12px;" width="52px"
+                                            alt="">
+                                        <div style="flex-grow: 1;">
+                                            <div class="flex-c-c" style="justify-content: space-between;">
+                                                <div style="font-size: 18px;">小杰</div>
+                                                <div>2024/12/30 02:15</div>
+                                            </div>
+                                            <div style="color:var(--second);">
+                                                ★★★★☆
+                                            </div>
+                                            <div style="color: #f8f8f8;">太喜歡了！音質好又好看，實用又兼具美觀性。</div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
                             </div>
+                            <!-- 評論通知 -->
+
+
+                            <!-- 留下評論 -->
+                            <form class="col-md-4" action="comment.jsp" method="post" onsubmit="submitComment(event)">
+                                <div style="text-align: center; font-size: 24px;">留下評論</div>
+                                <hr style="width: 50%; margin: 12px auto;  border: 1px solid black;">
+                                <div>評價</div>
+                                <div class="box">
+                                    <input type="radio" name="star" id="score5" value="5" />
+                                    <label class="star" for="score5"></label>
+
+                                    <input type="radio" name="star" id="score4" value="4" />
+                                    <label class="star" for="score4"></label>
+
+                                    <input type="radio" name="star" id="score3" value="3" />
+                                    <label class="star" for="score3"></label>
+
+                                    <input type="radio" name="star" id="score2" value="2" />
+                                    <label class="star" for="score2"></label>
+
+                                    <input type="radio" name="star" id="score1" value="1" />
+                                    <label class="star" for="score1"></label>
+                                </div>
+                                <div>評論</div>
+                                <textarea
+                                    style="background-color: #202020;color: #f8f8f8;width: 100%; padding: 12PX; border-radius: 10px; border: none;"
+                                    name="comment" id="comment" cols="30" rows="8"></textarea>
+                                <button type="submit" class="cart-btn">送出評論</button>
+                            </form>
+
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
         <!-- 推薦商品 -->
@@ -475,97 +284,92 @@
                     <div class="row">
                         <div class="col-sm-6 col-lg-4 col-xxl-3">
                             <div class="card">
-                                <a href="./detail.html">
+                                <a href="./detail.html?model=SoundLink Flex">
                                     <div class="relative">
                                         <div class="card-img">
-                                            <img src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 1.png"
-                                                alt="">
+                                            <img src="../asset/img/product/bose/SoundLink Flex/SoundLink Flex 1.png" alt="">
                                         </div>
                                         <button type="button" class="mask-text">
-
+                                            
                                         </button>
                                     </div>
-
+                                
                                     <div class="card-content">
                                         <div class="card-name">SoundLink Flex</div>
                                         <div class="card-price">NT$5,900</div>
                                     </div>
                                 </a>
-                                <button type="button" class="cart-btn">加入購物車</button>
-                            </div>
+                                <button type="button" class="cart-btn" onclick="showCart()">加入購物車</button>
+                            </div>                    
                         </div>
 
                         <div class="col-sm-6 col-lg-4 col-xxl-3">
                             <div class="card">
-                                <a href="./detail.html">
+                                <a href="./detail.html?model=Portable Home Speaker">
                                     <div class="relative">
                                         <div class="card-img">
-                                            <img src="../asset/img/product/bose/Portable Home Speaker/Portable Home Speaker 1.png"
-                                                alt="">
+                                            <img src="../asset/img/product/bose/Portable Home Speaker/Portable Home Speaker 1.png" alt="">
                                         </div>
                                         <button type="button" class="mask-text">
-
+                                            
                                         </button>
                                     </div>
-
+                                
                                     <div class="card-content">
                                         <div class="card-name">Portable Home Speaker</div>
                                         <div class="card-price">NT$14,900</div>
                                     </div>
                                 </a>
-                                <button type="button" class="cart-btn">加入購物車</button>
-                            </div>
+                                <button type="button" class="cart-btn" onclick="showCart()">加入購物車</button>
+                            </div>                    
                         </div>
 
                         <div class="col-sm-6 col-lg-4 col-xxl-3">
                             <div class="card">
-                                <a href="./detail.html">
+                                <a href="./detail.html?model=SoundLink Max">
                                     <div class="relative">
                                         <div class="card-img">
-                                            <img src="../asset/img/product/bose/SoundLink Max/SoundLink Max 1.png"
-                                                alt="">
+                                            <img src="../asset/img/product/bose/SoundLink Max/SoundLink Max 1.png" alt="">
                                         </div>
                                         <button type="button" class="mask-text">
-
+                                            
                                         </button>
                                     </div>
-
+                                
                                     <div class="card-content">
                                         <div class="card-name">SoundLink Max</div>
                                         <div class="card-price">NT$12,900</div>
                                     </div>
                                 </a>
-                                <button type="button" class="cart-btn">加入購物車</button>
-                            </div>
+                                <button type="button" class="cart-btn" onclick="showCart()">加入購物車</button>
+                            </div>                    
                         </div>
 
                         <div class="col-sm-6 col-lg-4 col-xxl-3">
                             <div class="card">
-                                <a href="./detail.html">
+                                <a href="./detail.html?model=SoundLink Micro">
                                     <div class="relative">
                                         <div class="card-img">
-                                            <img src="../asset/img/product/bose/SoundLink Micro/SoundLink Micro  2.png"
-                                                alt="">
+                                            <img src="../asset/img/product/bose/SoundLink Micro/SoundLink Micro 2.png" alt="">
                                         </div>
                                         <button type="button" class="mask-text">
-
+                                            
                                         </button>
                                     </div>
-
+                                
                                     <div class="card-content">
                                         <div class="card-name">SoundLink Micro</div>
                                         <div class="card-price">NT$4,800</div>
                                     </div>
                                 </a>
-                                <button type="button" class="cart-btn">加入購物車</button>
-                            </div>
+                                <button type="button" class="cart-btn" onclick="showCart()">加入購物車</button>
+                            </div>                    
                         </div>
+
                     </div>
                 </div>
             </div>
         </section>
-
-
 
     </main>
 
@@ -582,9 +386,12 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
     <!-- loading -->
     <script src="../asset/js/loading.js"></script>
-    <script src="../asset/js/select.js"></script>
+    
     <script src="../asset/js/submit.js"></script>
     <script src="../asset/js/login.js"></script>
+    <script src="../asset/js/addheader.js"></script>
+    <script src="../asset/js/select.js"></script>
+
 </body>
 
 </html>

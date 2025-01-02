@@ -79,7 +79,7 @@
     color: var(--primary);
 }
 
-.detail-tab-title .nav-link,.nav-item{
+.detail-tab-title .nav-link{
     border-radius: 10px;
 }
 
@@ -321,7 +321,6 @@
 .cart-btn {
     padding: 10px 15px;
     background-color: var(--primary);
-    color: white;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -367,4 +366,21 @@
     display: none; 
     z-index: 1000; 
     font-size: 14px;
+}
+
+
+.thumbnail {
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+
+
+.selected-thumbnail {
+    border-color:var(--primary) !important;
+}
+
+.thumbnail:hover {
+    border-color: #ccc;
 }

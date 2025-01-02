@@ -34,3 +34,40 @@
         gap: 32px;
     }
 }
+
+
+
+
+
+
+
+.team-member {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member .card-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.team-member .card-content {
+    padding: 15px;
+}
+
+.team-member .member-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.team-member .member-role {
+    font-size: 16px;
+    color: #cbcbcb;
+    text-align: left;
+}
+
+
