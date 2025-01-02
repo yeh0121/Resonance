@@ -268,11 +268,11 @@
                 }
             },
             "images": [
-                "jbl/Flip 6/Flip 6 1.png",
-                "jbl/Flip 6/Flip 6 2.png",
-                "jbl/Flip 6/Flip 6 3.png",
-                "jbl/Flip 6/Flip 6 4.png",
-                "jbl/Flip 6/Flip 6 5.png"
+                "JBL/Flip 6/Flip 6 1.png",
+                "JBL/Flip 6/Flip 6 2.png",
+                "JBL/Flip 6/Flip 6 3.png",
+                "JBL/Flip 6/Flip 6 4.png",
+                "JBL/Flip 6/Flip 6 5.png"
             ]
         },
         {
@@ -305,7 +305,7 @@
                 }
             },
             "images": [
-                "jbl/Go 4/Go 4 1.png","jbl/Go 4/Go 4 2.png","jbl/Go 4/Go 4 3.png","jbl/Go 4/Go 4 4.png","jbl/Go 4/Go 4 5.png"
+                "JBL/Go 4/Go 4 1.png","JBL/Go 4/Go 4 2.png","JBL/Go 4/Go 4 3.png","JBL/Go 4/Go 4 4.png","JBL/Go 4/Go 4 5.png"
             ]
         },
         {
@@ -334,10 +334,10 @@
                 }
             },
             "images": [
-                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 1.png",
-                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 2.png",
-                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 3.png",
-                "jbl/PartyBox On-the-Go/PartyBox On-the-Go 4.png"
+                "JBL/PartyBox On-the-Go/PartyBox On-the-Go 1.png",
+                "JBL/PartyBox On-the-Go/PartyBox On-the-Go 2.png",
+                "JBL/PartyBox On-the-Go/PartyBox On-the-Go 3.png",
+                "JBL/PartyBox On-the-Go/PartyBox On-the-Go 4.png"
             ]
         },
         {
@@ -366,10 +366,10 @@
                 }
             },
             "images": [
-                "jbl/PartyBox Stage 320/PartyBox Stage 320 1.png",
-                "jbl/PartyBox Stage 320/PartyBox Stage 320 2.png",
-                "jbl/PartyBox Stage 320/PartyBox Stage 320 3.png",
-                "jbl/PartyBox Stage 320/PartyBox Stage 320 4.png"
+                "JBL/PartyBox Stage 320/PartyBox Stage 320 1.png",
+                "JBL/PartyBox Stage 320/PartyBox Stage 320 2.png",
+                "JBL/PartyBox Stage 320/PartyBox Stage 320 3.png",
+                "JBL/PartyBox Stage 320/PartyBox Stage 320 4.png"
             ]
         },
         {
@@ -398,8 +398,8 @@
                 }
             },
             "images": [
-                "jbl/Pulse 5/Pulse 5 1.png",
-                 "jbl/Pulse 5/Pulse 5 2.png", "jbl/Pulse 5/Pulse 5 3.png"
+                "JBL/Pulse 5/Pulse 5 1.png",
+                 "JBL/Pulse 5/Pulse 5 2.png", "JBL/Pulse 5/Pulse 5 3.png"
             ]
         }
     ],
@@ -430,10 +430,10 @@
                 }
             },
             "images": [
-                "marshall/Acton III/Acton III 1.png",
-                "marshall/Acton III/Acton III 2.png",
-                "marshall/Acton III/Acton III 3.png",
-                "marshall/Acton III/Acton III 4.png"
+                "Marshall/Acton III/Acton III 1.png",
+                "Marshall/Acton III/Acton III 2.png",
+                "Marshall/Acton III/Acton III 3.png",
+                "Marshall/Acton III/Acton III 4.png"
             ]
         },
         {
@@ -461,9 +461,9 @@
                 }
             },
             "images": [
-                "marshall/Emberton III/Emberton III 1.png",
-                "marshall/Emberton III/Emberton III 2.png",
-                "marshall/Emberton III/Emberton III 3.png"
+                "Marshall/Emberton III/Emberton III 1.png",
+                "Marshall/Emberton III/Emberton III 2.png",
+                "Marshall/Emberton III/Emberton III 3.png"
             ]
         },
         {
@@ -492,10 +492,10 @@
                 }
             },
             "images": [
-                "marshall/Stanmore III/Stanmore III 2.png",
-                "marshall/Stanmore III/Stanmore III 3.png",
-                "marshall/Stanmore III/Stanmore III 1.png",
-                "marshall/Stanmore III/Stanmore III 4.png"
+                "Marshall/Stanmore III/Stanmore III 2.png",
+                "Marshall/Stanmore III/Stanmore III 3.png",
+                "Marshall/Stanmore III/Stanmore III 1.png",
+                "Marshall/Stanmore III/Stanmore III 4.png"
             ]
         },
         {
@@ -523,9 +523,9 @@
                 }
             },
             "images": [
-                "marshall/Willen II/Willen II 2.png",
-                "marshall/Willen II/Willen II 1.png",
-                "marshall/Willen II/Willen II 3.png"
+                "Marshall/Willen II/Willen II 2.png",
+                "Marshall/Willen II/Willen II 1.png",
+                "Marshall/Willen II/Willen II 3.png"
             ]
         },
         {
@@ -553,9 +553,9 @@
                 }
             },
             "images": [
-                "marshall/Woburn III/Woburn III 2.png",
-                "marshall/Woburn III/Woburn III 1.png",
-                "marshall/Woburn III/Woburn III 3.png"
+                "Marshall/Woburn III/Woburn III 2.png",
+                "Marshall/Woburn III/Woburn III 1.png",
+                "Marshall/Woburn III/Woburn III 3.png"
             ]
         }
     ],
